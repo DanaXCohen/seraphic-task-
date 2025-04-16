@@ -1,0 +1,40 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "type": "exists",
+      "displayName": "A Exists",
+      "priority": 1,
+      "condition": "A"
+    },
+    {
+      "id": 2,
+      "type": "exists",
+      "displayName": "B Exists",
+      "priority": 2,
+      "condition": "B"
+    },
+    {
+      "id": 3,
+      "type": "exists",
+      "displayName": "C Exists",
+      "priority": 3,
+      "condition": "C"
+    },
+    {
+      "id": 4,
+      "type": "exists",
+      "displayName": "D Exists",
+      "priority": 4,
+      "condition": "D"
+    },
+    {
+      "id": 5,
+      "type": "missing",
+      "displayName": "X Missing",
+      "priority": 5,
+      "condition": "X"
+    }
+  ],
+  "version": 2
+}
